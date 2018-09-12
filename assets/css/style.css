@@ -1,0 +1,164 @@
+/*
+Template Name: Wp Digital Download 
+Template URI: http://www.wpfreeware.com/wp-digital-download/
+Author: WpFreeware
+Author URI: http://www.wpfreeware.com
+Description: A Pro Apps / Digital Downloads website template
+Version: 1.0 
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+*{margin:0; padding:0}
+body{font-family:Arial; font-size:14px; line-height:20px; background:url("images/body_bg.png") repeat; color:#575757}
+a{color:#575757; text-decoration:none; outline:0}
+a:hover, a:active, a:focus{text-decoration:none; outline:0; color:#575757}
+input[type=text], input[type=password], input[type=submit], textarea{border:1px solid #ddd; padding:5px; overflow:auto}
+h1, h2, h3, h4, h5, h6{font-weight:normal; margin:0 0 15px}
+h2{font-size:25px; line-height:30px}
+img{max-width:100%; height:auto; border:none}
+.alignleft{float:left; margin-left:0px}
+.aligncenter{display:block; margin:10px auto}
+.alignright{float:right; margin-left:10px}
+.floatleft{float:left}
+.floatright{float:right}
+.wrapper{width:1150px; display:block; margin:0 auto}
+.fix{overflow:hidden}
+.header_area{background:url("images/black_bg.png") repeat scroll 0 0 rgba(0,0,0,0)}
+.header{min-height:100px}
+.logo{margin-left:10px}
+.logo h1{color:#FF1769; font-size:35px; font-weight:bold; line-height:40px; margin-top:25px; text-shadow:3px 2px 1px #CF0000}
+.logo h1 span{color:#fff}
+.social{margin-left:210px}
+.social ul{margin:0; padding:0; list-style:none}
+.social ul li{float:left}
+.social ul li a{color:#FFF; display:block; font-size:20px; padding:10px 20px}
+.social ul li a:hover{color:#FF1769}
+.facebook{}
+.twitter{}
+.google{}
+.feed{}
+.google_lan{margin-right:22px; margin-top:40px}
+.search_area{background:#FF1769}
+.search_box{padding:15px 0}
+.search_box form, .search_box form p{margin:0; padding:0}
+.search{background:none repeat scroll 0 0 #000; border:0; border-radius:8px; color:#FFF; font-size:18px; height:45px; padding-left:10px; width:85%; outline:0}
+.search:focus{background:#F0F0F0; color:#000}
+.search_submit{border-radius:5px; font-size:18px; height:40px; margin-left:10px; width:12%; border:none !important}
+.search_submit:hover{background:#222; color:#FF1769}
+.main_content_area{}
+.main_content{background:#fff}
+.content{width:950px; padding:10px; background:#fff}
+.hori_addbar{height:90px; margin:15px auto; width:728px}
+.single_content{border:1px solid #999; margin-bottom:15px; margin-left:7px; margin-right:7px; padding:10px; width:296px; -moz-box-shadow:3px 3px 5px #ddd; -webkit-box-shadow:3px 3px 5px #ddd; box-shadow:3px 3px 5px #ddd; min-height:500px}
+.single_content h2{font-size:20px; font-weight:bold; border-bottom:2px solid #FFA439; padding-bottom:10px}
+.single_content h2 i{color:#FFA439}
+.single_content h2 .week{font-size:10px; font-weight:normal}
+.single_content ul{margin:0; padding:0; list-style:none}
+.single_content ul li{}
+.single_content ul li a{border-bottom:1px dotted #DDD; display:block; font-size:12px; padding:7px 0}
+.single_content ul li a:hover{color:#FFA439; text-decoration:underline}
+.viewall{text-align:center; margin-top:15px}
+.viewall a{color:#FFA439; font-weight:bold}
+.viewall a:hover{text-decoration:underline}
+.entry_name{width:80%}
+.download-count{margin-top:5px}
+.home_sidebar{width:180px; padding:10px; background:#fff}
+.single_home_sidebar{margin-bottom:15px}
+.single_home_sidebar h2{border-bottom:3px solid #505050; font-size:20px; font-weight:bold}
+.single_home_sidebar h2 i{color:#FF1769}
+.footer_area{background:url("images/black_bg.png") repeat scroll 0 0 rgba(0,0,0,0); border-top:5px solid #FF1769}
+.footer{padding:10px}
+.footer_left{}
+.copyright{text-align:center; margin-top:15px}
+.copyright span{color:#FF1769}
+.footer_right{margin-top:20px}
+.footer_menu ul{margin:0; padding:0; list-style:none; text-align:right}
+.footer_menu ul li{display:inline}
+.footer_menu ul li a{display:inline-block; padding:10px 15px; color:#fff}
+.footer_menu ul li a:hover{text-decoration:underline; color:#FF1769}
+.google_search{margin-top:25px; width:350px}
+.inner_left_sidebar{padding:10px; width:180px; margin-top:20px}
+.single_left_sidebar{margin-bottom:25px}
+.single_left_sidebar h2{border-bottom:2px solid #000; font-weight:bold; padding-bottom:15px; font-size:16px}
+.single_left_sidebar h2 i{font-size:14px; padding-right:5px; color:#FFA439}
+.inner_content{padding:10px; width:650px; margin-top:20px}
+.inner_content h1{border-bottom:2px solid #FFA439; font-size:28px; font-weight:bold; padding-bottom:15px; text-align:center; margin-bottom:0px}
+.inner_content ul{margin:0; padding:0; list-style:none}
+.inner_content ul li{border-bottom:1px solid #ddd}
+.inner_content ul li:last-child{border-bottom:none}
+.single_inner_content{padding-top:15px; padding-bottom:15px}
+.single_inner_content h1{float:left; font-size:17px; font-weight:normal; width:45%; border-bottom:none; padding-bottom:0px; text-align:inherit; margin-bottom:0px}
+.single_inner_content h1 img{}
+.single_inner_content h1 a:hover{text-decoration:underline; color:#FFA439}
+.single_inner_content h1 span{display:block; font-size:12px; line-height:17px; padding-left:33px}
+.star{float:left; margin-top:25px; width:20%}
+.star a{background:url("images/star_active.png") no-repeat scroll 0 0 rgba(0,0,0,0); display:block; float:left; margin-right:2px; padding:0 10px; text-indent:-99999px}
+.single_inner_content > a{float:right; background:#ddd; display:block; padding:10px 40px; border-radius:5px; color:#575757; margin-top:15px}
+.single_inner_content > a i{padding-left:5px}
+.single_inner_content > a:hover{background:#FF1769; color:#fff; transition:all .5s ease 0s; -moz-transition:all .5s ease 0s; -webkit-transition:all .5s ease 0s; -o-transition:all .5s ease 0s; -ms-transition:all .5s ease 0s}
+.blog_top_add{width:630px; height:100px}
+.blog_top_add img{}
+.inner_right_sidebar, .inner_page_right_sidebar{padding:10px; width:320px; margin-top:20px}
+.single_right_sidebar, .inner_page_single_right_sidebar, .older_version{width:300px; margin-bottom:25px}
+.single_right_sidebar h2, .inner_page_single_right_sidebar h2, .older_version h2{font-size:16px; font-weight:bold}
+.single_right_sidebar h2 i, .inner_page_single_right_sidebar h2 i, .older_version i{color:#FFA439; padding-right:5px; font-size:14px}
+.older_version a{display:block; margin-bottom:5px}
+.older_version a:hover{color:#FFA439; text-decoration:underline}
+.inner_page_content{width:830px; padding:20px; margin-top:20px}
+.breadcrumbs{}
+.single_page_content{}
+.soft_title h1{float:left; font-size:25px; font-weight:bold; width:60%}
+.soft_title{}
+.rating_star{width:18%; float:right}
+.rating_star a{background:url("images/star_active.png") no-repeat; display:block; padding:7px 10px; float:left; margin-right:2px}
+.rating_star span{display:block; margin-bottom:2px; font-weight:bold}
+.single_page_content_top_addbar{height:90px; width:728px; margin:0 auto}
+.description_tabs{margin-top:20px}
+.nav-tabs .active a, .nav-tabs .active a:focus, .nav-tabs .active a:active{color:#FFA439 !important; font-weight:bold}
+.nav-tabs{border-bottom:1px solid #FFA439}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{border-color:#FFA439 #FFA439 rgba(0,0,0,0) !important; text-decoration:none}
+.nav-tabs > li > a{font-weight:bold; padding:15px 70px}
+.nav-tabs > li > a:hover{border:1px solid #fff; background:none; border-bottom:1px solid #FFA439}
+.nav-tabs > li > a:active{}
+.descriptions, .comments{margin-top:25px}
+.descriptions h2{border-bottom:2px dotted; color:#5F6D80; font-size:18px; font-weight:bold; margin-bottom:15px; margin-left:25px; margin-top:15px; padding-bottom:10px; width:300px}
+.descriptions ul{margin:0px 0px 15px 45px; padding:0; list-style:none}
+.descriptions ul li{width:370px; padding:10px}
+.description_info{}
+.des_title{float:left; font-weight:bold; width:40%}
+.des{color:#969696; float:right; width:60%}
+.des a{color:#FFA439; font-weight:bold}
+.des a:hover{text-decoration:underline}
+.post-meta{margin:30px 0px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; padding:20px 0}
+.download_area{width:77%; margin:0 auto}
+.social_buttons{}
+.btn{width:130px; margin-left:22px}
+.download_button{}
+.download_button a{display:block; padding:10px 30px; text-align:center; color:#fff; font-size:20px; border-radius:5px; margin-top:10px; font-weight:bold; background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#F71B4B),color-stop(1,#CF0000)); background-image:-o-linear-gradient(bottom,#F71B4B 0%,#CF0000 100%); background-image:-moz-linear-gradient(bottom,#F71B4B 0%,#CF0000 100%); background-image:-webkit-linear-gradient(bottom,#F71B4B 0%,#CF0000 100%); background-image:-ms-linear-gradient(bottom,#F71B4B 0%,#CF0000 100%); background-image:linear-gradient(to bottom,#F71B4B 0%,#CF0000 100%)}
+.download_button a:hover{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#1DAB3E),color-stop(1,#38CE5D)); background-image:-o-linear-gradient(bottom,#1DAB3E 0%,#38CE5D 100%); background-image:-moz-linear-gradient(bottom,#1DAB3E 0%,#38CE5D 100%); background-image:-webkit-linear-gradient(bottom,#1DAB3E 0%,#38CE5D 100%); background-image:-ms-linear-gradient(bottom,#1DAB3E 0%,#38CE5D 100%); background-image:linear-gradient(to bottom,#1DAB3E 0%,#38CE5D 100%)}
+.download_button a span{font-size:12px}
+.related_post{}
+.related_post h2{font-size:20px; font-weight:bold; text-align:center; margin-bottom:25px; border-bottom:2px dotted #ddd; padding-bottom:20px}
+.related_post h2 i{color:#FFA439}
+.related_post_container{border-bottom:2px dotted #DDD; margin-left:-10px}
+.single_related_post{float:left; margin-left:10px; width:256px; margin-bottom:10px}
+.single_related_post h2{font-size:14px; font-weight:normal; line-height:5px; border-bottom:none}
+.single_related_post h2 a:hover{color:#FF8000; text-decoration:underline}
+.single_related_post h2 span{display:block; font-size:11px; padding-left:35px}
+.inner_page{margin:25px auto; width:900px}
+.inner_page h1{font-weight:bold; margin-bottom:35px; margin-left:-20px; border-bottom:3px solid; padding-bottom:15px; margin-top:30px}
+.inner_page h2{font-size:18px; font-weight:bold; margin-left:-20px}
+.inner_page span{color:#FF1769}
+.inner_page p{}
+.inner_page ul{margin-left:20px}
+.inner_page ul li{}
+.inner_page ul li a{}
+.contact_form{margin-top:40px}
+.contact_form p{margin-bottom:15px}
+.name{height:40px; width:40%; outline:0}
+.email{height:40px; width:40%; outline:0}
+.massage{height:200px; width:60%; outline:0; overflow:auto}
+.submit_btn{background:none repeat scroll 0 0 #FF1769; color:#FFF; font-size:18px; font-weight:bold; height:40px; width:140px; border:none !important}
+.name:focus, .email:focus, .massage:focus{box-shadow:0.1px 0.1px 5px 1px #FF1769 !important; -moz-box-shadow:0.1px 0.1px 5px 1px #FF1769 !important; -webkit-box-shadow:0.1px 0.1px 5px 1px #FF1769 !important; transition:all 0.5s ease 0s; -moz-transition:all 0.5s ease 0s; -webkit-transition:all 0.5s ease 0s; -o-transition:all 0.5s ease 0s; -ms-transition:all 0.5s ease 0s}
+.submit_btn:hover{background:#fff; border:2px solid #FF1769 !important; color:#FF1769}

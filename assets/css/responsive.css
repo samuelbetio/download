@@ -1,0 +1,154 @@
+/*
+Tablet Layout: 768px.
+Gutters: 24px.
+Outer margins: 28px.
+Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wrapper{width:712px}
+.search{width:84%}
+.content{width:532px; padding:5px}
+.hori_addbar{height:60px; margin:10px auto; width:500px}
+.single_content{margin-left:2px; margin-right:2px; min-height:350px; width:257px}
+.entry_name{width:78%}
+.download-count{font-size:10px}
+.single_content ul li a{font-size:10px; padding:4px 0}
+.footer_left{width:35%}
+.footer_right{width:65%}
+.footer_menu ul li a{font-size:10px; padding:2px 5px}
+.footer_menu{width:70%; float:right}
+.copyright{font-size:12px; line-height:10px}
+.google_search{width:245px}
+.inner_left_sidebar{display:none}
+.inner_content{width:100%; float:none}
+.blog_top_add{margin:0 auto}
+.inner_right_sidebar, .inner_page_right_sidebar{float:none; width:100%}
+.inner_page_content{width:100%}
+.single_related_post{width:217px}
+.single_right_sidebar, .inner_page_single_right_sidebar, .older_version{margin:0 auto 25px; width:300px}
+.inner_page{width:80%}
+}
+
+/*
+Mobile Layout: 320px.
+Gutters: 24px.
+Outer margins: 34px.
+Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.wrapper{width:252px}
+.logo{margin-left:0}
+.logo h1{font-size:16px; line-height:25px; margin-top:14px}
+.google_lan{background:none repeat scroll 0 0 #DDD; height:20px; margin-right:0; margin-top:18px; width:95px}
+.header{min-height:55px}
+.search{font-size:6px; height:24px; padding-left:10px; width:69%}
+.search_submit{font-size:8px; height:26px; margin-left:2px; width:26%}
+.content{padding:5px; width:252px}
+.hori_addbar{height:35px; margin:8px auto; width:240px}
+.single_content{margin-left:0; margin-right:0; padding:10px; width:99%}
+.entry_name{width:76%}
+.single_content ul li a{font-size:8px}
+.download-count{font-size:8px}
+.home_sidebar{width:100%}
+.google_search{margin-top:10px; width:100%}
+.copyright{font-size:7px; line-height:10px}
+.copyright p{margin-bottom:0}
+.footer_left{float:none; margin:0 auto; width:150px}
+.footer_menu ul li a{font-size:5px; padding:0}
+.footer_right{margin-top:0; float:none}
+.social{margin-left:80px}
+.social ul li a{font-size:7px; padding:0 6px}
+.inner_left_sidebar{display:none}
+.inner_content{width:100%; float:none}
+.blog_top_add{margin:0 auto; height:66px; width:100%}
+.inner_right_sidebar, .inner_page_right_sidebar{float:none; margin-top:0; width:100%}
+.single_inner_content h1 span{font-size:7px; line-height:10px; margin-top:-6px; padding-left:37px}
+.star{display:none}
+.single_inner_content > a{font-size:8px; padding:3px 10px}
+.single_inner_content h1{font-size:8px; width:68%}
+.single_right_sidebar, .inner_page_single_right_sidebar, .older_version{margin-bottom:10px; width:100%}
+.inner_page_content{padding:10px; width:100%}
+.single_related_post{width:217px}
+.single_right_sidebar, .inner_page_single_right_sidebar, .older_version{margin:0 auto 25px; width:100%}
+.soft_title h1{float:none; font-size:7px; margin-bottom:3px; width:60%}
+.rating_star{float:none; margin-bottom:23px; margin-left:34px; margin-top:-19px; width:48%}
+.single_page_content_top_addbar{height:52px; width:100%}
+.nav-tabs > li > a{padding:4px 16px}
+.description_info{font-size:10px}
+.descriptions ul{margin:0 0 15px 0}
+.descriptions ul li{padding:5px; width:100%}
+.des_title{width:39%}
+.des{width:60%}
+.download_button a{font-size:12px}
+.single_related_post{width:203px}
+.single_related_post h2{font-size:10px; line-height:0; margin-bottom:0}
+.single_related_post h2 span{font-size:7px; margin-top:-5px}
+.inner_page{width:80%}
+.inner_page h1{margin-bottom:25px; margin-left:-20px; margin-top:15px; padding-bottom:7px; font-size:18px}
+.contact_form{margin-top:20px}
+.name{height:25px; width:75%}
+.email{height:25px; width:75%}
+.massage{height:85px; width:100%}
+.submit_btn{width:100%}
+.logo{float:none; margin-left:0; text-align:center}
+.logo h1{font-size:20px; margin-bottom:13px; margin-top:16px}
+.google_lan{float:none; height:23px; margin:0 auto 10px; width:155px}
+}
+
+/*
+Wide Mobile Layout: 480px.
+Gutters: 24px.
+Outer margins: 22px.
+Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.wrapper{width:436px}
+.search{width:75%}
+.search_submit{width:19%}
+.content{width:436px; float:none}
+.hori_addbar{height:50px; margin:10px auto; width:400px}
+.single_content{margin-left:6px; margin-right:0; padding:10px; width:97%}
+.home_sidebar{width:97%; float:none}
+.footer_left{float:none}
+.google_search{margin-top:5px; width:97%}
+.copyright{margin-top:5px}
+.footer_right{float:none; margin-top:5px}
+.footer_menu ul li a{padding:1px 8px}
+.social{margin-left:140px; margin-top:10px}
+.social ul li a{padding:1px 11px}
+.logo{margin-left:10px}
+.logo h1{font-size:30px; line-height:15px; margin-bottom:22px; margin-top:25px}
+.google_lan{background:none repeat scroll 0 0 #DDD; height:20px; margin-right:0; margin-top:28px; width:159px}
+.header{min-height:55px}
+.social{margin-left:152px; margin-top:10px}
+.inner_left_sidebar{display:none}
+.inner_content{width:100%; float:none}
+.blog_top_add{margin:0 auto; height:66px; width:100%}
+.inner_right_sidebar, .inner_page_right_sidebar{float:none; width:100%}
+.single_inner_content h1 span{font-size:7px; line-height:10px; margin-top:-6px; padding-left:37px}
+.star{width:27%; margin-top:18px}
+.single_inner_content > a{font-size:8px; padding:3px 10px}
+.single_inner_content h1{font-size:10px; width:45%}
+.inner_page_content{padding:10px; width:100%}
+.single_related_post{width:217px}
+.single_right_sidebar, .inner_page_single_right_sidebar, .older_version{margin:0 auto 25px; width:300px}
+.soft_title h1{width:60%; font-size:14px}
+.rating_star{width:28%}
+.single_page_content_top_addbar{height:52px; width:100%}
+.nav-tabs > li > a{padding:10px 62px}
+.download_button a{font-size:12px}
+.single_related_post{width:203px}
+.single_related_post h2{font-size:10px; line-height:0; margin-bottom:0}
+.single_related_post h2 span{font-size:7px; margin-top:-5px}
+.inner_page{width:80%}
+.inner_page h1{margin-bottom:35px; margin-left:-20px; margin-top:30px; padding-bottom:15px; font-size:36px}
+}
